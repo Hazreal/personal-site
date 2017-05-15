@@ -12,8 +12,8 @@
     <link href="css/styles.css" rel="stylesheet">
   </head>
   <body>
+    <!-- Header Start -->
     <header>
-      <!-- Navbar Start -->
       <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -36,10 +36,163 @@
           </div>
         </div>
       </nav>
-      <!-- Navbar end -->
     </header>
+    <!-- Header End -->
+    <!--Intro -->
+    <div class="intro">
+      <div class="intro-content">
+        <h1> Adam E. Risher </h1>
+        <h2> Computer Information Systems and Human Computer Interaction / User Experience </h2>
+        <button type="button" class="btn btn-default btn-lg">
+          <a href="resume.pdf" download><i class="fa fa-file-text" aria-hidden="true"></i> Resume </a>
+        </button>
+      </div>
+    </div>
+    <!-- Intro End -->
 
+    <!-- About Start -->
+    <div class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2 class=head>About</h2>
+          </div>
+          <div class="col-md-8">
+            <p>
+              I am a recent graduate from the University of North Alabama having just graduated in May of 2017. I graduated with a Bachelors in Computer Information Systems with a minor in Human Computer Interaction.
+              I was president of the University of North Alabama's Association for Information Systems. I am currently looking for a job!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--About End -->
+    <!-- Education -->
+    <div class="education">
+      <h2 id="education">Education</h2>
+      <div class="ed-info">
+        <h3>University of North Alabama</h3>
+        <span class="ed-time">August 2013 - May 2017</span>
+        <h4>Bachelor of Business Administration, Computer Information Systems</h4>
+        <ul>
+          <li>Major GPA: </li>
+          <li>Minor in Human Computer Interaction and User Experience</li>
+          <li>Association for Information Systems President</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Education End -->
+    <!--Skills Start-->
+    <div class="skills">
+      <h2 id="skills">Skills</h2>
+      <h3 id="languages">Programming Languages</h3>
+        <ul>
+          <li>Java</li>
+          <li>C++</li>
+          <li>Ruby</li>
+          <li>PHP</li>
+          <li>C</li>
+        </ul>
+      <h3 id="web-dev">Web Development</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>NodeJS</li>
+          <li>Ruby on Rails</li>
+          <li>jQuery</li>
+          <li>Bootstrap</li>
+          <li>Sass</li>
+          <li>MySQL</li>
+          <li>PostgreSQL</li>
+          <li>MongoDB</li>
+        </ul>
+      <h3 class="dev-tools">Development Tools</h3>
+        <ul>
+          <li>Git</li>
+          <li>Unix Terminal</li>
+          <li>Raspberry Pi</li>
+          <li>Axure</li>
+        </ul>
+    </div>
+    <!-- Skills End -->
+    <!--Work -->
+    <div class="experience">
+      <h2 id="experience">Experience</h2>
+        <div class="job">
+          <h3>University of North Alabama</h3>
+          <p>August 2016 - Current</p>
+          <h4>Database Administration Intern</h4>
+          <p>Maintain and update database containing student records as well as enable access to data for generating reports</p>
+        </div>
+        <div class="job">
+          <h3>PartCycle Technologies</h3>
+          <p>May 2016 - August 2016</p>
+          <h4>Backend Webdeveloper Intern</h4>
+          <p>Worked on search engine optimization by dynamically generating a sitemap that contained over four million links</p>
+        </div>
+        <div class="job">
+          <h3>Black Rocket</h3>
+          <p>June 2016 - June 2016</p>
+          <h4>Instructor</h4>
+          <p>Taught adolescents between ages 11 and 14 how to design a 3D video game</p>
+        </div>
+        <div class="job">
+          <h3>University of North Alabama</h3>
+          <p>January 2016 - May 2016</p>
+          <h4>Tutor</h4>
+          <p>Provided tutoring help for other students for the Java programing language as well as the Microsoft Office Suite</p>
+        </div>
+    </div>
+    <!-- Work End -->
+    <!-- Projects -->
+    <div class="projects">
+      <h2 id="projects">Projects</h2>
+      <div class="project">
+        <h3>Sitemaps</h3>
+        <p>Designed a solution to dynamically generate sitemaps for PartCycle technologies. Generated roughly four million links using Ruby on Rails</p>
+      </div>
+      <div class="project">
+        <h3>Rest API</h3>
+        <p>Created a simple restful API for handling request for use on a social media site using NodeJS</p>
+      </div>
+      <div class="project">
+        <h3>E-commerence and Inventory Management System</h3>
+        <p>Capstone project for Computer Information Systems. Worked on backend inventory management systems and worked with front end team to integerate with e-commerence.</p>
+      </div>
+      <div class="project">
+        <h3>Prototype mobile site design</h3>
+        <p>Capstone for Human Computer Interaction and User Experience, prototyped and tested a new mobile design for University of North Alabama's newspaper the Flor-Ala using both paper prototypes and Axure</p>
+      </div>
+    </div>
+    <!-- Projects End -->
+    <!-- Contact Start -->
+    <div class="contact">
+      <h2 id="contact">Contact Me</h2>
+      <div id="contact-form">
+        <form method="POST" action="https://formspree.io/aerisher@gmail.com">
+        <input type="hidden" name="_subject" value="Contact request from personal website" />
+        <input type="email" name="_replyto" placeholder="Your email" required>
+        <textarea name="message" placeholder="Your message" required></textarea>
+        <button type="submit">Send</button>
+      </div>
+    </div>
+    <!--Contact End -->
+    <!--Footer Start -->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-5 copyright">
+              <p>Copyright &copy 2017 Adam Risher</p>
+            </div>
+            <div class="col-sm-5 social-media">
+              <ul>
+                <li><a href="https://github.com/Hazreal" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/adamer/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
 
+              </ul>
+            </div>
+          </div>
+        </div>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
   </body>
