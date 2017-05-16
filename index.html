@@ -43,8 +43,8 @@
       <div class="intro-content">
         <h1> Adam E. Risher </h1>
         <h2> Computer Information Systems <br>and<br> Human Computer Interaction / User Experience </h2>
-        <button type="button" class="btn btn-default btn-lg">
-          <a href="resume.pdf" download><i class="fa fa-file-text" aria-hidden="true"></i> Resume </a>
+        <button type="button" class="btn btn-default btn-lg resume">
+          <a href="resume.pdf" download><i class="fa fa-file-text fa-3x" aria-hidden="true"></i><br>Resume </a>
         </button>
       </div>
     </div>
@@ -56,7 +56,7 @@
         <h2 id=head>About</h2>
         <p>
           I am a recent graduate from the University of North Alabama having just graduated in May of 2017. I graduated with a Bachelors in Computer Information Systems with a minor in Human Computer Interaction.
-          I was president of the University of North Alabama's Association for Information Systems. I am currently looking for a job!
+          I was president of the University of North Alabama's Association for Information Systems.
         </p>
       </div>
     </div>
@@ -88,6 +88,7 @@
               <li>C++</li>
               <li>Ruby</li>
               <li>PHP</li>
+              <li>Javascript</li>
               <li>C</li>
               <li>C#</li>
               <li>Visual Basic</li>
@@ -183,33 +184,34 @@
     </div>
     <!-- Projects End -->
     <!-- Contact Start -->
-    <div class="contact">
+    <div class="container contact">
       <h2 id="contact">Contact Me</h2>
-      <div id="contact-form">
-        <form method="POST" action="https://formspree.io/aerisher@gmail.com">
-        <input type="hidden" name="_subject" value="Contact request from personal website" />
-        <input type="email" name="_replyto" placeholder="Your email" required>
-        <textarea name="message" placeholder="Your message" required></textarea>
-        <button type="submit">Send</button>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="contact-form">
+            <form method="POST" action="https://formspree.io/aerisher@gmail.com">
+            <input type="hidden" name="_subject" value="Contact request from personal website" />
+            <input type="email" name="_replyto" placeholder="Your email" required>
+            <textarea name="message" placeholder="Your message" required></textarea>
+            <button type="submit" class="btn btn-default btn-lg contact-submit">Send</button>
+          </div>
+        </div>
       </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="contact-me">You can also find me here</p>
+					<a href="http://www.linkedin.com/in/adamer/" target="_blank"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
+					<a href="https://github.com/Hazreal" target="_blank" ><i class="fa fa-github-square fa-4x" aria-hidden="true"></i></a>
+        </div>
+
     </div>
     <!--Contact End -->
     <!--Footer Start -->
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-5 copyright">
-              <p>Copyright &copy 2017 Adam Risher</p>
-            </div>
-            <div class="col-sm-5 social-media">
-              <ul>
-                <li><a href="https://github.com/Hazreal" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/adamer/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+    <footer>
+      <p>Copyright &copy2017 Adam Risher</p>
+    </footer>
+    <!-- Footer End -->
 
-              </ul>
-            </div>
-          </div>
-        </div>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
   </body>

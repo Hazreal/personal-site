@@ -29,44 +29,71 @@ ul{
   text-align: center;
 }
 
-.intro {
+.intro, .about, .education {
   margin: 5em 0 0 0;
   padding: 0 0 5em 0;
   text-align: center;
   border-bottom: solid #CACACA;
 }
 
-.about {
-  margin: 5em 0 0 0;
-  padding: 0 0 5em 0;
-  text-align: center;
-  border-bottom: solid #CACACA;
-}
-
-.education{
-  margin: 5em 0 0 0;
-  padding: 0 0 5em 0;
-  text-align: center;
-  border-bottom: solid #CACACA;
-}
-.ed-info{
+.ed-info, .job, .project{
   text-align: left;
   padding: 0 2em 0 2em;
   border: thin solid #CACACA;
   margin: 0 auto;
+  margin-bottom: 1em;
   width: 30em;
 }
-.ed-info ul{
-  list-style-type: none;
-}
-.skills{
+
+.skills, .experience, .projects{
   border-bottom: solid #CACACA;
   text-align: center;
 }
-.skills .container{
+.skills .container, .contact{
   text-align: center;
   margin: 0 auto;
 }
+.contact{
+  margin-bottom: 1em;
+}
+#contact-form input,
+#contact-form textarea {
+    display: block;
+    width: 40%;
+    padding: 10px;
+    border-radius: 4px;
+    border: solid #CACACA;
+    margin: 0 auto;
+    margin-bottom: .5em;
+}
+.cent{
+  margin: 0 auto;
+}
+
+.fa {
+  color: #999999;
+}
+
+.fa:hover {
+  color: #bfbfbf;
+}
+
+.resume a{
+  color: #655E5E;
+  display: inline-block;
+  font-style:none;
+}
+.social-box{
+  display:inline-block;
+}
+.contact-me{
+  margin-top: 1em;
+}
+footer{
+  float: left;
+  margin: 2em 0 0 2em;
+}
+
 /* smartphones, iPhone, portrait 480x320 phones */
 @media (min-width:320px)  {
   .nav {
@@ -85,7 +112,7 @@ ul{
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 @media (min-width:641px)  {
   .navbar-nav li{
-    float: none;
+    float: none;divs
     display: inline-block;
   }
 }
