@@ -2,24 +2,89 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 16px
 }
-
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	z-index: 10;
+}
+button {
+  margin: 2em 0 2em 0;
+}
+h1{
+  font-weight: 700;
+}
+h2{
+  font-weight: 500;
+}
+h3, h4{
+  font-weight: 400;
+}
 .navbar-nav {
   text-align: center;
 }
 
+.intro {
+  margin: 5em 0 0 0;
+  padding: 0 0 5em 0;
+  text-align: center;
+  border-bottom: solid #CACACA;
+}
+
+.about {
+  margin: 5em 0 0 0;
+  padding: 0 0 5em 0;
+  text-align: center;
+  border-bottom: solid #CACACA;
+}
+
+.education{
+  margin: 5em 0 0 0;
+  padding: 0 0 5em 0;
+  text-align: center;
+  border-bottom: solid #CACACA;
+}
+.ed-info{
+  text-align: left;
+  padding: 0 2em 0 2em;
+  border: thin solid #CACACA;
+  margin: 0 27% 0 27%;
+}
+.ed-info ul{
+  list-style-type: none;
+}
+.skills{
+  border-bottom: solid #CACACA;
+  text-align: center;
+}
+.skills .container{
+  margin: 0 27% 0 27%;
+}
 /* smartphones, iPhone, portrait 480x320 phones */
 @media (min-width:320px)  {
   .nav {
     width: 100%;
   }
 }
+
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 @media (min-width:481px)  {
+  .navbar-nav li{
+    float: none;
+    display: inline-block;
+  }
 }
+
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 @media (min-width:641px)  {
-
+  .navbar-nav li{
+    float: none;
+    display: inline-block;
+  }
 }
+
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width:961px)  {
 
@@ -27,17 +92,18 @@ body {
     float: none;
     display: inline-block;
   }
-
 }
+
 /* big landscape tablets, laptops, and desktops */
 @media (min-width:1025px) {
+  .navbar-nav li{
+    float: none;
+    display: inline-block;
+  }
 }
 
 /* hi-res laptops and desktops */
 @media (min-width:1281px) {
-
 }
-
-
 
 }
